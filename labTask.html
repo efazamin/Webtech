@@ -1,0 +1,107 @@
+ 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="icon" href="D:\8th Semester Mid\WebTech\Pic\images.png" type="image/x-icon">
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 110vh;
+            margin: 0;
+        }
+        .flex-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .column {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        img {
+             border-radius: 50%;
+        }
+        .water{
+            padding: 40px;
+            margin-top: 20px;
+        }
+        h1{
+            text-align: center;
+        }
+        .flex-container{
+            position: relative;
+        }
+        .Reg{
+            position:absolute;
+            left: 25
+            top: 0%
+        }
+        .water{
+            margin-top: 35px;
+            margin-left: 20px;
+        }
+ 
+    </style>
+</head>
+<body>
+    <br>
+    <br><img src="D:\8th Semester Mid\WebTech\Pic\kingfisher-2.png" alt="BoomBoomMaxwell" style="width:100px">
+    <h1 style="text-align:center;">Form</h1>
+    <div class="flex-container">
+        <div style="background-color: rgb(226, 116, 43); height: 600px; width: 400px;">
+            <h1 class="Reg">Registration Form</h1>
+            <form class="water">
+
+                
+
+
+            <label for="Name">Full Name:</label><br>
+            <input type = "text" name = "FullName" placeholder="FULL NAME"><br>
+            <label for="Email">Email:</label><br>
+            <input type = "email" name = "umail" placeholder="User Email"><br>
+            <label for="password">Password:</label><br>
+            <input type = "password" name = "pass" placeholder="Password"><br>
+            <label for="cpassword">Confirm Password:</label><br>
+            <input type = "Confirm password" name = "cp" placeholder="Confirm Password"><br>
+            <label for="birthday">Date of Birth:</label><br>
+            <input type="date" id="birthday" name="birthday"><br>
+             <label for="Country">Country:</label><br>
+                    <select id="Country" name="Country">
+                        <option value="India">India</option>
+                        <option value="USA">USA</option>
+                        <option value="UK">UK</option>
+                        <option value="Australia">Australia</option>
+                        <option value="Bangladesh">Bangladesh</option>
+                        <option value="Zimbabwe">Zimbabwe</option>
+                        <option value="South Africa">South Africa</option>
+                        <option value="England">England</option>
+                    </select><br>
+             <label for="gender">Gender:</label><br>
+             Male<input type = "radio" name = "gender" value="Male">
+             Female<input type = "radio" name = "gender" value="Female"><br>
+             <label for="favcolor">Select your favorite color:</label><br>
+            <input type="color" id="favcolor" name="favcolor" value="#ff0000"><br>
+            <label for="textarea">Your Opinion:</label><br>
+            <textarea id="textarea" name="textarea" rows="4" cols="30">
+            </textarea><br>
+             <input type="checkbox" id="terms" name="terms">
+             <label for="terms">I agree to the terms and conditions</label><br>
+             <input type="submit">
+            </form>
+        </div>
+        <div class="column">
+            <div style="background-color: rgba(236, 232, 26, 0.604); height: 300px; width: 400px;"></div>
+            <div style="background-color: rgb(52, 165, 42); height: 300px; width: 400px;"></div>
+        </div>
+    </div>
+ 
+</body>
+</html>
+ 
